@@ -1,24 +1,22 @@
 {
-  "name": "url-shortener-microservice",
+  "name": "url-shortener",
   "version": "1.0.0",
-  "description": "URL shortener service where you can write a long URL into an input field and the service shortens the URL",
+  "description": "A NodeJS, Express, and MongoDB URL Shortening Service",
   "main": "app.js",
   "scripts": {
-    "test": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ChaturvediSulabh/URL-Shortener-Microservice.git"
   },
-  "keywords": [
-    "heroku",
-    "express",
-    "nodejs"
-  ],
   "author": "Sulabh Chaturvedi",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ChaturvediSulabh/URL-Shortener-Microservice/issues"
   },
-  "homepage": "https://github.com/ChaturvediSulabh/URL-Shortener-Microservice#readme"
+  "homepage": "https://github.com/ChaturvediSulabh/URL-Shortener-Microservice#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
